@@ -1,0 +1,13 @@
+nicegui>=2.6.2
+uvicorn>=0.30
+pydantic>=2.7
+fastapi>=0.110
+pywebview>=4.4
+
+[dev]
+pytest>=8.2
+ruff>=0.6
+
+[ml]
+numpy>=1.26
+torch>=2.2

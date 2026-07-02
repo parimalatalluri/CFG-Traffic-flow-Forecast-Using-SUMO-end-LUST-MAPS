@@ -1,0 +1,91 @@
+Metadata-Version: 2.4
+Name: cfgflow
+Version: 0.1.0
+Summary: CFG-Aware Traffic Flow Forecasting Using SUMO (LUST) with live congestion analysis
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: nicegui>=2.6.2
+Requires-Dist: uvicorn>=0.30
+Requires-Dist: pydantic>=2.7
+Requires-Dist: fastapi>=0.110
+Requires-Dist: pywebview>=4.4
+Provides-Extra: ml
+Requires-Dist: numpy>=1.26; extra == "ml"
+Requires-Dist: torch>=2.2; extra == "ml"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+
+# CFG-Aware Traffic Flow Forecasting (LUST + SUMO) — Local Windows App
+
+This project is a **fully local** Python application that:
+
+- launches/attaches to the **LUST** SUMO scenario via **TraCI**
+- streams **live congestion** metrics from the simulation
+- lets the user select **start → destination** and highlights the route
+- predicts **future congestion** (baseline included; deep model scaffold included)
+
+## Prerequisites
+
+1. **SUMO installed** (SUMO GUI or headless)
+2. `SUMO_HOME` environment variable set (recommended), e.g.:
+   - `C:\\Program Files (x86)\\Eclipse\\Sumo`
+3. Python 3.11+
+
+## Install
+
+From `d:\\Sumo_kits\\simulation`:
+
+```powershell
+python -m pip install -U pip
+pip install -e .
+```
+
+## Run (desktop window)
+
+```powershell
+cfgflow run --sumocfg scenario\\due.actuated.sumocfg --net scenario\\lust.net.xml --native
+```
+
+Browser mode:
+
+```powershell
+cfgflow run --sumocfg scenario\\due.actuated.sumocfg --net scenario\\lust.net.xml
+start http://127.0.0.1:8088
+```
+
+Headless:
+
+```powershell
+cfgflow run --sumocfg scenario\\due.actuated.sumocfg --net scenario\\lust.net.xml --sumo-binary sumo
+```
+
+Record to SQLite:
+
+```powershell
+cfgflow run --sumocfg scenario\\due.actuated.sumocfg --net scenario\\lust.net.xml --sqlite data\\lust.sqlite --native
+```
+
+Export recording:
+
+```powershell
+cfgflow export --sqlite data\\lust.sqlite --out data\\edge_state.csv
+```
+
+Training scaffold (deep model plug-in point):
+
+```powershell
+python scripts\\train_stub.py --net scenario\\lust.net.xml --sqlite data\\lust.sqlite
+```
+
+Train a local spatiotemporal model (requires torch):
+
+```powershell
+cfgflow train --net scenario\\lust.net.xml --sqlite data\\lust.sqlite --out models\\st_model.pt --max-edges 1200 --epochs 10
+```
+
+Run with the trained model:
+
+```powershell
+cfgflow run --sumocfg scenario\\due.actuated.sumocfg --net scenario\\lust.net.xml --model models\\st_model.pt
+```

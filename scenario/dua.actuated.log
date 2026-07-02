@@ -1,0 +1,64 @@
+Loading net-file from 'lust.net.xml' ... done (951ms).
+Loading additional-files from 'vtypes.add.xml' ... done (2ms).
+Loading additional-files from 'busstops.add.xml' ... done (12ms).
+Loading additional-files from 'e1detectors.add.xml' ... done (49ms).
+Loading additional-files from 'lust.poly.xml' ... done (453ms).
+Warning: Unsafe green phase 2 in tlLogic '-30132', program '0'. Lane '--31508#2_0' is targeted by 2 'G'-links. (use 'g' instead)
+Loading route-files incrementally from 'buslines.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.0.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.1.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.2.rou.xml'
+Loading route-files incrementally from 'transit.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Warning: Vehicle '0BEtoLU.8' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=1195.00.
+Warning: Vehicle '0BEtoLU.11' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=1506.00.
+Warning: Vehicle '0BEtoLU.14' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=1791.00.
+Warning: Vehicle 'randUni5326:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=3711.00.
+Warning: Vehicle 'randUni4375:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=3904.00.
+Warning: Vehicle '1BEtoLU.10' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=4078.00.
+Warning: Vehicle 'randUni20768:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=4130.00.
+Warning: Vehicle '1BEtoLU.16' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=4220.00.
+Warning: Vehicle 'randUni8011:1' performs emergency braking on lane '-31366#0-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=4428.00.
+Warning: Vehicle '1BEtoLU.21' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=4459.00.
+Warning: Vehicle 'randUni6552:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=4967.00.
+Warning: Vehicle 'randUni13755:1' performs emergency braking on lane '-32798-AddedOnRampEdge_1' with decel=9.00, wished=4.50, severity=1.00, time=5150.00.
+Warning: Vehicle 'randUni17471:1' performs emergency braking on lane '-31366#1-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=5463.00.
+Warning: Vehicle '1BEtoLU.43' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=5622.00.
+Warning: Vehicle 'randUni19047:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=6330.00.
+Warning: Vehicle '1BEtoLU.63' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=6795.00.
+Warning: Vehicle 'randUni3462:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=6875.00.
+Warning: Vehicle '1BEtoLU.78' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=7337.00.
+Warning: Vehicle 'randUni171:1' performs emergency braking on lane '-31366#1-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=7793.00.
+Warning: Vehicle 'randUni20296:1' performs emergency braking on lane '-31366#0-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=7808.00.
+Warning: Vehicle 'randUni11684:1' performs emergency braking on lane '-32798-AddedOnRampEdge_1' with decel=9.00, wished=4.50, severity=1.00, time=8271.00.
+Warning: Vehicle '2BEtoLU.34' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=8435.00.
+Warning: Vehicle '2BEtoLU.50' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=8813.00.
+Warning: Vehicle '2BEtoLU.62' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=9170.00.
+Warning: Vehicle '2BEtoLU.81' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=9617.00.
+Warning: Vehicle 'randUni4256:1' performs emergency braking on lane ':-13922_1_0' with decel=9.00, wished=4.50, severity=1.00, time=10018.00.
+Warning: Vehicle 'randUni18066:1' performs emergency braking on lane '-32798-AddedOnRampEdge_1' with decel=9.00, wished=4.50, severity=1.00, time=10205.00.
+Warning: Vehicle '2BEtoLU.110' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=10558.00.
+Warning: Vehicle '2BEtoLU.115' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=10674.00.
+Warning: Vehicle '2BEtoLU.120' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=10785.00.
+Warning: Vehicle '2BEtoLU.121' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=10801.00.
+Warning: Vehicle '2BEtoLU.123' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=10890.00.
+Warning: Vehicle '3BEtoLU.24' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=11528.00.
+Warning: Vehicle '3BEtoLU.32' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=11659.00.
+Warning: Vehicle '3BEtoLU.45' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=11878.00.
+Warning: Vehicle '3BEtoLU.49' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=11932.00.
+Warning: Vehicle '3BEtoLU.76' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=12527.00.
+Warning: Vehicle '3BEtoLU.77' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=12543.00.
+Warning: Vehicle '3BEtoLU.78' performs emergency braking on lane '-30668#9-AddedOnRampEdge_2' with decel=9.00, wished=4.50, severity=1.00, time=12544.00.
+Simulation ended at time: 12623.00.
+Performance:
+ Duration: 11213.80s
+ Real time factor: 1.12567
+ UPS: 215.265043
+Vehicles:
+ Inserted: 5285 (Loaded: 5292)
+ Running: 310
+ Waiting: 0
+ Emergency Braking: 39
+DijkstraRouter answered 7273 queries and explored 1511.33 edges on average.
+DijkstraRouter spent 10.86s answering queries (1.49ms on average).

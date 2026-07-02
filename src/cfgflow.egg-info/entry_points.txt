@@ -1,0 +1,2 @@
+[console_scripts]
+cfgflow = cfgflow.__main__:main
